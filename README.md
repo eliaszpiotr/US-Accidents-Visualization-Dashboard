@@ -4,7 +4,7 @@ This repository contains an updated and reworked version of a university data vi
 
 The original project was created at Aarhus University by:
 
-- Piotr Eliasz
+- Eliasz Piotr
 - Ali Al Mais
 - Ibrahim Ahmed Mohammed Haras
 - Xiaoyang Zhang
@@ -13,6 +13,8 @@ Original project date: December 16, 2024.
 
 This version was later updated and improved by **Piotr Eliasz**.  
 The goal of the rework was to clean up the project structure, improve usability, simplify running the app, and make the dashboard more practical as an interactive analytical tool.
+
+![Dashboard preview](assets/dashboard-preview.png)
 
 ## What this project is
 
