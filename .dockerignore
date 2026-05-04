@@ -1,0 +1,17 @@
+.git
+.gitignore
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+venv/
+.env/
+.dataviz/
+dataviz/
+.venv/
+data/*.csv
+data/*.parquet
+data/*.pkl
+generated/cache/
+generated/
+notebooks/*.html

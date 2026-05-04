@@ -1,0 +1,11 @@
+services:
+  dashboard:
+    build: .
+    ports:
+      - "8050:8050"
+    volumes:
+      - ./data:/app/data
+      - ./generated:/app/generated
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: sh -c "python scripts/download_data.py && python main.py"

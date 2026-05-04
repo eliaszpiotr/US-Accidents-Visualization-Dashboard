@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# macOS
+.DS_Store
+
+# Virtual environments
+venv/
+.env/
+.dataviz/
+dataviz/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data files
+data/*.csv
+data/*.parquet
+data/*.pkl
+
+# Keep documentation/placeholders
+!data/README.md
+!data/.gitkeep
+!data/sample/
+!data/sample/**
+
+# Generated files/cache
+generated/
+generated/cache/
+!generated/.gitkeep
+
+notebooks/
