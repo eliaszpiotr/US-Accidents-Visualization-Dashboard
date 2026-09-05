@@ -33,3 +33,6 @@ generated/cache/
 !generated/.gitkeep
 
 notebooks/
+
+# IDE
+.idea/
